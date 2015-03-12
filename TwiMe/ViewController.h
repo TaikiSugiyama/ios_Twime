@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import "AFHTTPRequestOperationManager.h"
+#import "ResultViewController.h"
+#import "TopViewController.h"
+@interface ViewController : UIViewController <UITextFieldDelegate>
+@property UILabel *myLabel;
+@property UITextField *textField;
+- (void)registerAction:(UIButton*)sender;
+- (void)backAction:(UIButton*)sender;
 @end
 

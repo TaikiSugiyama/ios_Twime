@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "TopViewController.h"
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    NSMutableArray *memorys;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
