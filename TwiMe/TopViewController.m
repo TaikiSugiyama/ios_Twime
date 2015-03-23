@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIImageView *bgImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"@check_blue@2x.jpg"]];
+    UIImageView *bgImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"@check_red@2x.jpg"]];
     bgImage.layer.zPosition = -1;
     [self.view addSubview:bgImage];
     _items_ = [@[] mutableCopy];
